@@ -1,0 +1,40 @@
+.header{
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    background:#3698DA;
+    padding: 0 10px;
+}
+
+.header .left{
+    float: left;
+}
+.header .right{
+    float: right;
+}
+
+.list{
+    word-wrap: break-word;
+    padding: 10px 20px;
+}
+
+.list .title{
+    color:#4D5963;
+}
+.list .title:hover{
+    color:#4AA7F8;
+}
+.list .name{
+    color:#3479B6;
+}
+.yuan{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+
+    color: #3EAAA3;
+    border: 1px solid #3EAAA3;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}

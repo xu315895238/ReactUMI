@@ -1,0 +1,74 @@
+.back{
+    background:#fff;
+    overflow: hidden;
+}
+
+.box {
+    padding:10px 0;
+    display: flex;
+    overflow: hidden;
+    background:#fff;
+    align-items: center;
+}
+
+.title{
+    margin: 0 20px 0 20px;
+}
+
+.right{
+    height: 100%;
+    margin: -20px 0 0 0;
+}
+
+.right .gengduo{
+    margin:0 10px 0 0;
+    padding: 0 30px 0;
+    border: none;
+    color:#fff;
+    height: 100%;
+    background:#3EAAA3;
+}
+.right .gengduo:hover{
+    background: #30857F;
+}
+
+.right .hrefs{
+    margin:0 10px 0 0;
+    color: #fff;
+    height: 100%;
+    background:#E8ECEE;
+    border:none;
+}
+
+.right .hrefs:hover{
+    background:#CBD5DA;
+
+} 
+
+.inputs{
+    height: 100%;
+    border:0;
+    outline: none;
+    background:#F2F5F8;
+    flex:1;
+} 
+
+
+
+.disp{
+    height: 0;
+    padding:0 0 10px 20px; 
+    transition: all 1s;
+    display: none;
+}
+
+.disp .disp3 input{ 
+   width: 90%;
+   outline: none;
+   border:1px solid #C1C9D7;
+}
+
+
+
+
+

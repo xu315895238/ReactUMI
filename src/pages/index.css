@@ -1,0 +1,19 @@
+
+.box {
+  width: 100%;
+  height: 100%;
+  background:skyblue;
+}
+
+.fixeds{
+  width: 100%;
+  height: 10%;
+  color: #fff;
+
+  background:#526B85;
+}
+
+.sider{
+  background:#526B85;
+}
+

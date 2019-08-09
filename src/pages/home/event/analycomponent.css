@@ -1,0 +1,134 @@
+.box .top{
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+.box .top .left {
+    background:#fff;
+    width: 50%;
+    height: 210px;
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+.box .top .right {
+    background:#fff;
+    padding: 10px;
+    width: 50%;
+    height: 210px;
+    float: right;
+}
+
+.bottom {
+    background:#fff;
+    margin:25px 0 0 0;
+    overflow: hidden;
+
+}
+
+.bottom .header{
+    margin:0 20px;
+    height: 75px;
+    line-height: 80px;
+    border-bottom:1px solid #F4F4F4;
+    font-size: 16px;
+}
+.bottom .header .left{
+    float: left;
+}
+.bottom .header .right{
+    float: right;
+}
+
+.bottom .header .right span{
+    height: 70px;
+    display: inline-block;
+    padding:0 15px;
+}
+
+.bottom .header .right span:hover{
+    border-bottom:5px solid #9EE3E9;
+}
+
+.bottom .header .right span.active{
+    border-bottom:5px solid #35C5D2;
+}
+
+.bottom .main{
+    display: flex;
+    clear: both;
+    padding:20px;
+    margin:20px;
+    overflow: hidden;
+}
+.bottom .main:hover{
+    background:#F8F8F8;
+}
+
+.bottom .main>.left{
+    
+    width: 60px;
+}
+.bottom .main>.right{
+    flex:1;
+}
+.bottom .main>.right .name{
+    color:#000;
+    font-weight: bolder;
+}
+
+.bottom .main>.right>p{
+    clear: both;
+}
+.bottom .main>.right>p .left{
+    float: left;
+}
+.bottom .main>.right>p .right{
+    float: right;
+}
+.bottom .main>.right>p .right.displaynone{
+    display: none;
+}
+.bottom .main:hover>.right>p .right.displaynone{
+    display: block;
+}
+.leftnav,.rightnav{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    display: flex;
+    align-items: center;
+}
+.leftnav>h5,.rightnav>h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+.rightnav>p{
+    font-size: 12px;
+    color: #ccc;
+    margin-left: 10px;
+}
+.portletbody,.zhuzhuangtu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.portletbody>div,.zhuzhuangtu>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.portletbody>div>span,.zhuzhuangtu>div>span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portletbody>div>span>p,.zhuzhuangtu>div>span>p{
+    margin-top: 10px;
+    margin-right: 15px;
+}

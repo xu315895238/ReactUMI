@@ -1,0 +1,14 @@
+.header{
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    background:#3698DA;
+    padding: 0 10px;
+}
+
+.header .left{
+    float: left;
+}
+.header .right{
+    float: right;
+}

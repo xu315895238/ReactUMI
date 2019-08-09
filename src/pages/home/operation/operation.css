@@ -1,0 +1,60 @@
+.card-container > .ant-tabs-card > .ant-tabs-content {
+    width: 100%;
+    height: 120px;
+    margin-top: -16px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+    background: #fff;
+    padding: 16px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar {
+    border-color: #fff;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-color: transparent;
+    background: transparent;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    border-color: #fff;
+    background: #fff;
+  }
+  .OnlineAccountStatistics,.Robotstatistics{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .OnlineAccountStatistics>ul,.Robotstatistics>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .OnlineAccountStatistics>ul>li,.Robotstatistics>ul>li{
+      height: 35px;
+      display: flex;
+      justify-content: space-around;
+      background: #BABABA;
+      align-items: center;
+  }
+  .OnlineAccountStatistics>ul>li{
+    width: 33.2%;
+  }
+  .Robotstatistics>ul>li{
+    width: 16.6%;
+  }
+  .Robotstatistics>div>h5{
+    font-size: 23px;
+    font-weight: 900;
+  }
+  .OnlineAccountStatistics>ul>li>span,.Robotstatistics>ul>li>span{
+      font-weight: 800;
+  }
+  .OnlineAccountStatistics>ul>li>.Icon,.Robotstatistics>ul>li>.Icon{
+    color:#BABABA;
+  }

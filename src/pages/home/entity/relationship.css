@@ -1,0 +1,41 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 100%;
+    height: 100%;
+}
+.associationanalysis{
+    width: 100%;
+    height: 100%;
+}
+.Searchdropdown{
+    width: 100%;
+    padding: 20px 10px;
+    background: #fff;
+    display: flex;
+}
+.Search{
+   width: 30%;
+}
+.dropdown{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+.Searchbtn{
+    margin-left: 20px;
+}
+.Forcedirected{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+.Forcedirecteds{
+    width: 100%;
+    height: 90%;
+}

@@ -1,0 +1,98 @@
+
+.box {
+    width: 100%;
+    height: 100%;
+    background:skyblue;
+  }
+  
+.fixeds{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  color: #fff;
+
+  background:#526B85;
+}
+
+.fixeds .trigger{
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.fixeds .trigger:hover {
+  color: #fff;
+  background: #24303E;
+}
+
+.scrolly{
+  overflow-y:auto; 
+}
+
+.topright{
+  flex: 1;
+  height: 100%;
+}
+
+.topright li{
+  float: right;
+  height: 100%;
+}
+/* shift */
+.topright .shift{
+  padding:0 2%;
+}
+.topright .shift:hover{
+  background:#7391B2;
+}
+
+.topright .shift a{
+  color:#fff; 
+}
+
+/* user */
+.topright .user{
+  padding:0 3%;
+}
+.topright .user:hover{
+  background:#7391B2;
+
+}
+.topright .user span{
+  padding:0 10px;
+}
+
+/* input */
+.topright .search .input{
+  height: 75%;
+}
+
+/* 消息 */
+.topright .inform{
+  padding:0 2%;
+}
+
+/* 主体 */
+.contents{
+  padding: 25px 20px ;
+  background: #EDF0F4;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  

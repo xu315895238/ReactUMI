@@ -1,0 +1,71 @@
+.card-container > .ant-tabs-card > .ant-tabs-content {
+    width: 100%;
+    height: 120px;
+    margin-top: -16px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+    background: #fff;
+    padding: 16px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar {
+    border-color: #fff;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-color: transparent;
+    background: transparent;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    border-color: #fff;
+    background: #fff;
+  }
+  .Whatapp,{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .Whatapp>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .Whatapp>ul>li{
+      width: 24.9%;
+      height: 35px;
+      display: flex;
+      justify-content: space-around;
+      background: #BABABA;
+      align-items: center;
+  }
+  .Whatapp>ul>li>span{
+      font-weight: 800;
+  }
+  .Whatapp>ul>li>.Icon{
+    color:#BABABA;
+  }
+  .GroupScreening,.Search{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .GroupScreening>span,.Search>span{
+    display: flex;
+    align-items: center;
+  }
+  .GroupScreening>span>h5{
+    height: 100%;
+    font-size: 22px;
+    width: 140px;
+    line-height: 50px;
+  }
+ .Search>span>h5{
+    width: 80px;
+    font-size: 16px;
+  }

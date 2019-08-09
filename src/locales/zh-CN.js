@@ -1,0 +1,21 @@
+export default { 
+    'navbar.lang': '中文',
+    'Theoverallsituation': '整体形势',
+    'Contentmonitoring' : '内容监测',
+    'Agroupmonitoring': '群组监测',
+    'Accountbehavior': '账号行为',
+    'Groupcharacteristics': '群组特征',
+    'associationanalysis': '关联分析',
+    'Monitoringconfiguration': '监测配置',
+    'Collecttheconfiguration': '采集配置',
+    'accountmanagement': '账号管理',
+    'Collectionkeywords': '采集关键词',
+    'operationmonitoringandcontrolling': '运行监控',
+    'Buffsgroup': '辅助加群',
+    'systemmanagement': '系统管理',
+    'usercontrol': '用户管理',
+    'divisionalmanagement': '部门管理',
+    'rolemanagement': '角色管理',
+    'functionmanagement': '功能管理',
+    'operationlog': '操作日志'
+}

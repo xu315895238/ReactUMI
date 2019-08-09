@@ -1,0 +1,48 @@
+.box {
+    background:#fff;
+    height: 50px;
+    line-height: 50px;
+    margin:0;
+    padding:0;
+    margin-bottom: 15px;
+}
+
+.title{
+    margin: 0 10px 0 20px;
+}
+.buttons{
+    margin: 0 5px;
+    border-color:#31C4D1;
+    color:#31C4D1;
+}
+.buttons:hover{
+    background:#31C4D1;
+    color:#fff;
+}
+
+.right{
+    float: right;
+    height: 100%;
+}
+
+.right .gengduo{
+    border: none;
+    color:#fff;
+    height: 100%;
+    background:#BEC9D0;
+}
+.right .gengduo:hover{
+    background: #A0B0BB;
+}
+
+.right .hrefs{
+    color: #fff;
+    height: 100%;
+    background:#659BDE;
+}
+
+.right .hrefs:hover{
+    background:#3B80D5;
+
+}
+
